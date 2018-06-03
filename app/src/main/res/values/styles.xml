@@ -10,14 +10,14 @@
     <style name="detailsTitle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:paddingRight">8dp</item>
-        <item name="android:paddingLeft">8dp</item>
-        <item name="android:paddingBottom">8dp</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingBottom">@dimen/padding</item>
+        <item name="android:textSize">@dimen/titleSize</item>
         <item name="android:textStyle">bold</item>
     </style>
     <style name="details" parent="detailsTitle">
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">@dimen/detailsSize</item>
         <item name="android:textStyle">italic</item>
     </style>
 
